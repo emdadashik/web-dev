@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Yeseva+One&display=swap');
+.line{
+    border-left: 3px solid #FF5959;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto 100px auto;
+}
+.head{
+    font-family: 'Yeseva One', cursive;
+    padding-left: 10px;
+}
+.colored-text{
+    color: #FFAD5A;
+}
+.body{
+    font-family: 'Poppins' , sans-serif;
+}
+.half-width{
+    float: left;
+    width: 42%;
+}
+.text-area{
+    margin: 200px 0px 0 75px;
+    
+}
+.half-width img{
+    max-width: 100%;
+}
+.btn{
+    color: white;
+    background-color: #FF5959;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+.dim-green{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.quard-width{
+    width: 360px;
+    height: 405px;
+    border-radius: 20px;
+    padding-left: 15px;
+    margin: 15px;
+}
+.quard-width img{
+    padding: 15px;
+}
+.center{
+    text-align: center;
+}
+.vector{
+    width: 120px;
+}
+.quard-width h4 , p{
+    padding-left: 13px;
+}
+.dim-red{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.dim-yellow{
+    background-color: rgba(255, 244, 214, 1);
+}
+.half3{
+    width: 35%;
+}
+.half3 img{
+    max-width: 100%;
+}
+.half7{
+    width: 65%;
+    padding-left: 25px;
+}
+.half7 h3, .btn{
+    margin-left: 15px;
+}
+.pic-area{
+    clear: both;
+    background-image: url(images/background.png);
+}
+.corona-area{
+    margin: auto;
+    padding-left: 60px;
+}
+.corona-area h2{
+    padding-left: 12px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer span{
+    color:#FF5959
+}
